@@ -9,7 +9,7 @@ on:
       FEIL:
         description: "配置文件"
         required: true
-        default: 'oneplus_ace5_pro'
+        default: 'JiuGeFaCai_oneplus_ace5_pro_v'
       CPUD:
         description: "处理器代号"
         required: true
@@ -41,7 +41,7 @@ on:
         options:
           - tag
           - main
-        default: tag
+        default: main
       SUSFS_ENABLED:
         description: "添加 SUSFS"
         required: true
