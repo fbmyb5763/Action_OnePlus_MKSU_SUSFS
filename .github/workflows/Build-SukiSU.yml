@@ -41,7 +41,7 @@ on:
         options:
           - tag
           - main
-        default: main
+        default: tag
       SUSFS_ENABLED:
         description: "添加 SUSFS"
         required: true
